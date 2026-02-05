@@ -6,7 +6,7 @@
 
 ## 🎥 System Demo
 <div align="center">
-  <video src="https://github.com/lukmanabdulhaq/dubai-realestate-ai-agent/raw/main/demo.mp4" width="100%" controls muted autoplay loop></video>
+  <video src="https://raw.githubusercontent.com/lukmanabdulhaq/dubai-realestate-ai-agent/main/demo.mp4" width="100%" controls muted autoplay loop></video>
 </div>
 
 ## 🎯 Overview
@@ -27,12 +27,6 @@ graph TD
 | Architecture Layout | Multilingual AI Response | Real-time Alert |
 | :--- | :--- | :--- |
 | ![Architecture](architecture.png) | ![Arabic Support](arabic_response.png) | ![Telegram Alert](telegram_alert.png) |
-
-## 🛠️ Tech Stack
-- **Orchestration**: n8n
-- **Generative AI**: Google Gemini 1.5 Flash (NLP & Reasoning)
-- **Integrations**: Gmail API, Telegram API
-- **Foundations**: AWS Machine Learning & Generative AI Certified
 
 ---
 *Maintained by Lukman Abdulhaq — AI Operations & Data Engineer*
