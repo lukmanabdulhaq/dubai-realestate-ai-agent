@@ -5,7 +5,6 @@
 ![AWS GenAI](https://img.shields.io/badge/AWS-Generative_AI-white?logo=amazon-aws)
 
 ## 🎥 System Demo
-## 🎥 System Demo
 
 <div align="center">
   ![System Demo](demo.gif)
