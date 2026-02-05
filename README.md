@@ -4,6 +4,11 @@
 ![AWS ML Essentials](https://img.shields.io/badge/AWS-ML_Essentials-blue?logo=amazon-aws)
 ![AWS GenAI](https://img.shields.io/badge/AWS-Generative_AI-white?logo=amazon-aws)
 
+## 🎥 System Demo
+<div align="center">
+  <video src="https://github.com/lukmanabdulhaq/dubai-realestate-ai-agent/raw/main/demo.mp4" width="100%" controls muted autoplay loop></video>
+</div>
+
 ## 🎯 Overview
 An event-driven AI automation pipeline designed for the Dubai property market. This system handles multilingual inquiries, performs ROI calculations, and triages leads using sentiment analysis.
 
