@@ -7,6 +7,7 @@
 ## 🎥 System Demo
 
 <div align="center">
+![System Demo](demo.gif){width=100%}
   ![System Demo](demo.gif)
 </div>
 
