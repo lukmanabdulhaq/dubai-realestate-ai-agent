@@ -5,8 +5,10 @@
 ![AWS GenAI](https://img.shields.io/badge/AWS-Generative_AI-white?logo=amazon-aws)
 
 ## 🎥 System Demo
+## 🎥 System Demo
+
 <div align="center">
-  <video src="https://raw.githubusercontent.com/lukmanabdulhaq/dubai-realestate-ai-agent/main/demo.mp4" width="100%" controls muted autoplay loop></video>
+  ![System Demo](demo.gif)
 </div>
 
 ## 🎯 Overview
