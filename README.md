@@ -1,29 +1,59 @@
 # 🏠 Dubai Real Estate AI Agent
 
-### Autonomous Virtual Portfolio Manager & Lead Triage
+> **An event-driven AI automation pipeline for the Dubai property market — multilingual lead triage, sentiment analysis, and instant sales alerts via Telegram.**
 
-![AWS ML Essentials](https://img.shields.io/badge/AWS-ML_Essentials-blue?logo=amazon-aws)
-![AWS GenAI](https://img.shields.io/badge/AWS-Generative_AI-white?logo=amazon-aws)
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://python.org)
+[![Gemini](https://img.shields.io/badge/Google-Gemini_1.5_Flash-blue?logo=google)](#)
+[![Telegram](https://img.shields.io/badge/Telegram-Bot_API-blue?logo=telegram)](https://core.telegram.org/bots)
 
-## 🎥 System Demo
+## Demo
 
-<div align="center">
-  <img src="demo.gif" alt="System Demo - AI Agent in Action" width="100%">
-</div>
+![System Demo](demo.gif)
 
-> Short screen recording showing the agent handling customer queries, multilingual responses, sentiment triage, and real-time alerts.
+> AI agent handling a live customer inquiry — language detection, sentiment triage, ROI calculation, and Telegram alert fired automatically.
 
-## 🎯 Overview
+## What This Agent Does
 
-An event-driven AI automation pipeline designed for the Dubai property market. This system handles multilingual inquiries (Arabic & English), performs ROI calculations, and triages leads using sentiment analysis.
+1. Detects the language — Arabic or English, responds accordingly
+2. Analyses sentiment — classifies intent and urgency
+3. Triages the lead — general inquiry vs high-priority buyer
+4. Sends portfolio summary — via Gmail for general inquiries
+5. Fires instant Telegram alert — for high-priority leads
+6. Calculates ROI — property investment projections on demand
 
-## 🏗️ Technical Architecture
+## Architecture
+```
+Customer Query (Webhook / Form)
+        ↓
+  Gemini 1.5 Flash
+  ├── Language Detection → Arabic / English Response
+  └── Sentiment Analysis
+            ↓
+       Triage Logic
+       ├── General Inquiry → Gmail: Portfolio Summary
+       └── High Priority  → Telegram: Instant Agent Alert
+```
 
-```mermaid
-graph TD
-    A[Customer Query: Webhook/Form] --> B{Gemini 1.5 Flash}
-    B -->|Language Detection| C[Arabic / English Response]
-    B -->|Sentiment Analysis| D{Triage Logic}
-    D -->|General Inquiry| E[Gmail: Portfolio Summary]
-    D -->|High-Priority Lead| F[Telegram: Instant Agent Alert]
-    F --> G[AWS Cloud Ingestion Placeholder]
+## Screenshots
+
+| Arabic Response | Telegram Alert |
+|---|---|
+| ![Arabic](arabic_response.png) | ![Telegram](telegram_alert.png) |
+
+## Tech Stack
+
+| Component | Technology |
+|---|---|
+| AI Model | Google Gemini 1.5 Flash |
+| Language | Python |
+| Notifications | Telegram Bot API |
+| Email | Gmail API |
+
+## Related Projects
+
+This agent was the predecessor to the full **[AI Lead Intelligence System](https://github.com/lukmanabdulhaq/ai-lead-intelligence-system)** — a production-grade multi-channel lead automation platform.
+
+## Author
+
+**Lukman Abdul Haq** — AI Automation & Full-Stack Engineer
+Accra, Ghana · lukmanabdulhaq1@gmail.com
